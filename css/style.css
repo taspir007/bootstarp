@@ -1,0 +1,68 @@
+*{ padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-space{
+    justify-content: space-between;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}li{
+    padding: 19px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: .6s;
+}
+a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#top_bar{
+    background-color: #0f2f44;
+    color: #fefefe;
+    padding: 19px 0px;
+}
+#firstbg{
+    background-image: url(./../img/1st-bgi.png);
+}
+.ion{
+    margin-top: 40px;
+    width: 30px;
+    height: 30px
+}
+nav ul li button{
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: .6s;
+}
+nav ul li button{
+    background-color: #fff9e6;
+        color: #ffc712;
+}
+
